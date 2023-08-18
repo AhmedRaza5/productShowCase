@@ -1,0 +1,525 @@
+body h1,h2,h3,h4,h5{
+    font-family: poppins sans;
+}
+.section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.container h1{
+    text-align: center;
+    padding-top: 0px;
+    font-size: 45px;
+}
+
+.menu li{
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    padding-left: 20px;
+    
+    
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+    padding: 15px 20px;
+    
+    
+}
+
+
+.fa{
+    padding-left: 15px;
+    color: black;
+    padding-top: 20px;
+    
+}
+.menu-icon {
+    width: 28px;
+    margin-left: 10px;
+    display: none;
+}
+.pading{
+    padding-bottom: 10px;
+    
+}
+/* image slider */
+#slider {
+    overflow: hidden;
+    
+}
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+#slider figure img{
+    width: 20%;
+    float: left;
+}
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+   /*  75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    } */
+    
+    
+}
+
+.carousel-caption p{
+    color: #949494;
+}
+.carousel-caption h2{
+    font-size: 50px;
+    color: black;
+}
+.carousel-caption h3{
+    color: black;
+}
+
+
+/* .text{
+    padding-left: 200px;
+    margin-bottom: 300px;
+} */
+/* .text1{
+    margin-bottom: 400px;
+    padding-right: 100px;
+} */
+
+.section{
+    width: 100%;
+    height: auto;
+    padding-left: 30px;
+    background-color: rgba(223, 217, 217, 0.3);
+
+    
+}
+.col-md-6 h2{
+    font-size: 50px;
+}
+.col-md-6 p{
+    color: #949494;
+    text-align: justify;
+}
+
+.skills{
+    width: 100%;
+    max-width: 600px;
+    padding: 0 20px;
+  }
+  
+  .skill-name{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 20px 0;
+  }
+  
+  .skill-bar{
+    height: 20px;
+    background: #cacaca;
+    border-radius: 8px;
+  }
+  
+  .skill-per{
+    height: 20px;
+    background-color: black;
+    border-radius: 8px;
+    width: 0;
+    transition: 1s linear;
+    position: relative;
+  }
+  
+  .skill-per::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 4px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+  }
+  
+  .skill-per::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    top: -16px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+  }
+
+.section1{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.sale{
+    background-color: black;
+    color: #fff;
+    padding: 2px 22px;
+    display: block;
+    position: absolute;
+    left: 78%;
+    margin-top: 30px;
+     
+}
+.new{
+    background-color: #fff;
+    color: black;
+    padding: 2px 22px;
+    display: block;
+    position: absolute;
+    left: 78%;
+    margin-top: 30px;
+}
+.stock{
+    background-color: black;
+    color: #fff;
+    padding: 2px 22px;
+    display: block;
+    position: absolute;
+    
+    margin-top: 30px;
+}
+
+.back{
+    background: url(./image4.jpg);width: 100%;background-position: 50%;height: 500px; 
+}
+.back img{
+    
+    width: 100%;
+    height: -webkit-fill-available;
+}
+.col-md-6 img{
+    width: 100%;
+}
+.section2{
+    width: 100%;
+    height: auto;
+    padding-left: 30px;
+    background-color: rgba(223, 217, 217, 0.3);
+
+}
+
+.colr h2{
+    font-size: 100px;
+}
+.colr .fa{
+    color: #949494;
+    
+}
+/* comment area */
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+.mySlides p{
+    color: #949494;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+section{
+    position: relative;
+    z-index: 10;
+    box-sizing: border-box;
+    background: #fff;
+    
+}
+/* FOOTER */
+#footer-sidebar{
+    color: seashell;
+    background: black;
+    padding: 20px 0;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    
+}
+/* .footer-widget h4:after{
+    content: "";
+    background: burlywood;
+    display: block;
+    width: 50px;
+    height: 2px;
+    margin: 5px 0;
+} */
+.footer-widget a{
+    color: white;
+}
+.lastest-news{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.lastest-news li{
+    margin-bottom: 3px;
+}
+.lastest-news li:before{
+    content: "\f101";
+    font-family: FontAwesome;
+    padding-right: 5px; 
+}
+.footer-widget i{
+    color: #949494;
+    padding-right: 15px;
+}
+.footer-widget h4{
+    font-size: 50px;
+    
+}
+
+.footer-widget h5{
+    font-size: 30px;
+}
+.footer-widget p{
+    color: #949494;
+}
+.footer-widget address{
+    color: #949494;
+}
+.icon i{
+    padding-top: 20px;
+    font-size: 20px;
+    padding-right: 20px;
+    
+}
+.footer-widget input{
+    color: #fff;
+    background-color: black;
+}
+.email{
+    padding-top: 50px;
+    padding-right: 30px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    height: 400px;
+    
+    
+    
+
+}
+.margin400px{
+    margin-bottom: 400px;
+    
+    
+}
+
+/*-------media query for menu--------*/
+@media only screen and (max-width: 900px){
+    
+    nav ul {
+        position: absolute;
+        top: 70px;
+        left: 0%;
+        background: #fff;
+        width: 100%;
+        overflow: hidden;
+        color: #fff;
+        transition: max-height 0.5s;
+        
+        
+    }
+
+    .menu ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: poppins sans;
+        margin-left: -30px;
+
+    }
+    nav ul li {
+        color: #fff;
+
+    }
+    
+    
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        
+        
+    }
+    
+    .nothing {
+        display: none;
+    }
+    .color{
+        padding-left: 120px;
+    }
+    
+    
+}
+@media only screen and (max-width: 770px){
+    .section1{
+        padding-top: 200px;
+    }
+    .section{
+        
+            width: 100%;
+            height: auto;
+            padding-left: 30px;
+            background-color: rgba(223, 217, 217, 0.3);
+        
+            
+        
+    }
+    .mySlides{
+        padding-top: 200px;
+    }
+    .section2{
+        width: 100%;
+        
+        padding-left: 30px;
+        background-color: rgba(223, 217, 217, 0.3);
+    
+    }
+    /* footer */
+    footer{
+        
+        height: fit-content;
+        
+        
+        
+    }
+    .margin400px{
+        margin-bottom: 800px;
+        
+        
+    }
+   .col-md-6 h1{
+       padding-right: 10px;
+   }
+   .col-md-6 h4{
+       text-align: center;
+   }
+   .col-md-6{
+       text-align: justify;
+       
+   }
+   .single-product .col-md-6{
+       padding: 10px 10px;
+   }
+   .comment-box textarea{
+    width: 100%;
+    margin-top: 0%;   
+   }
+  .form1 input{
+      width: 100%;
+  }
+    
+
+    
+}
+
+@media only screen and (max-width: 550px){
+    .carousel-caption h2{
+        font-size: 20px;
+        
+    }
+}
+@media only screen and (max-width: 370px){
+    .carousel-caption h3{
+        font-size: 15px; 
+    }
+    .color{
+        padding-left: 0px;
+    }
+}
+@media only screen and (max-width: 768px){
+   .image-logo-4 img{
+       height: 400px;
+   }
+}
+@media only screen and (max-width: 770px){
+    #footer-sidebar{
+        padding-top: 40%;
+    }
+}
+@media only screen and (max-width: 760px){
+    .display{
+        display: none;
+    }
+    #footer-sidebar{
+        padding-top: 50%;
+    }
+}
+@media only screen and (max-width: 500px){
+    .section{
+        height: auto;
+    }
+}
